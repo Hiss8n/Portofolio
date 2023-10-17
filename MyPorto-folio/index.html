@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porto folio</title>
+    <style>
+        .navbar{
+            height:92px;
+            width:97%;
+            background-color:yellow;
+            position: fixed;
+            margin-top:0px;
+        }
+        .navItem{
+            display: flex;
+            flex-direction:row;
+            margin-left:12px;
+        }
+        .menuitems{
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+            list-style: none;
+            gap: 20px;
+            align-items: center;
+            margin-left: 74px;
+        }
+        .container{
+            height: 1000vh;
+            width: 100%;
+            display:grid;
+            grid-template-columns: auto,auto;
+            justify-content: center;
+            background-color:rgb(29, 29, 29);
+    
+
+        }
+
+        .left{
+        
+            margin-left:0px;
+           
+        }
+        .intro{
+            margin-top:34%;
+    
+            align-self: baseline;
+            font-weight: 400;
+            font-size: medium;
+            font-family:system-ui,  'Segoe UI', 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: white;
+
+        
+
+        }
+        .btn{
+            margin-top:6px;
+            background-color:white;
+            height:36px;
+            width:80px;
+            border:none;
+            color:black;
+            border-radius:18px;
+            position:absolute;
+        }
+        .btn:hover{
+            color: yellow;
+            transition: .5s;
+            background-color: transparent;
+            cursor: pointer;
+        }
+        .right{
+            background-image: url("robot.jpg");
+            background-size: cover;
+            margin-top:23%;
+            height:250px;
+            width:100%;
+            border-radius: 2px;
+        background-color: white;
+        margin-right:0px;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <div class="navItem">
+        <h1>H.TutuDevs</h1>
+          <div class="menuitems">
+        <li>HOME</li>
+        <li><a href="About.html">ABOUT</a></li>
+        <li>LOCATION</li>
+        <li>ABOUT</li>
+          </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="right">
+        <div class="image">
+        </div>
+    <div class="left">
+
+      </div>
+        <div class="intro">
+        <h3>Hello,My Name is Tutu.I am Web Developer.I majorly work in frontend development.<br>I work together with a team that runs web hosting cloud company.</h3>
+        <h2>Skills</h2>
+        <ul>
+            <li>Git and Github</li>
+            <li>JavaScriopt</li>
+            <li>CSS</li>
+            <li>HTML 5</li>
+            <li>Node.js</li>
+            <li>React</li>
+            <li>SQL</li>
+            <li>Remote Work readiness</li>
+            <li>Data Structure ansd Algorithm using Java</li>
+        </ul>
+        <p>Fell free to contct me for amazing bussiness in  remote and hybrid environment </p>
+        </div>
+         <button class="btn">Contact us!</button>
+    </div>
+
+    
+        <div class="social">
+
+        </div>
+</div>
+
+    
+</body>
+</html>
